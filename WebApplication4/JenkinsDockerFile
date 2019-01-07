@@ -3,7 +3,7 @@ dockerNode(image: 'microsoft/aspnetcore-build') {
    
    stage 'Clone'
 
-checkout scm
+git url : 'https://github.com/messaoudiadil/WebApplication4.git'
 
 	stage 'Build'
 def msbuild = tool name: 'msbuild'
