@@ -1,4 +1,4 @@
-dockerNode(image: 'microsoft/aspnetcore-build:2.0') {
+dockerNode(image: 'microsoft/aspnetcore-build') {
     
    
    stage 'Clone'
