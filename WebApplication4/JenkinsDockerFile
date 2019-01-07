@@ -2,8 +2,8 @@ dockerNode(image: 'microsoft/aspnetcore-build') {
     
    
    stage 'Clone'
+#git url : 'https://github.com/messaoudiadil/WebApplication4.git'
 
-''''git url : 'https://github.com/messaoudiadil/WebApplication4.git'
 checkout scm
 
 	stage 'Build'
